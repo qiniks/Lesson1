@@ -3,7 +3,7 @@ package com.example.lesson1.ui.home.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lesson1.Task
+import com.example.lesson1.ui.Task.Task
 import com.example.lesson1.databinding.ItemTaskBinding
 
 class TaskAdapter : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {

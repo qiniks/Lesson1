@@ -1,4 +1,4 @@
-package com.example.lesson1
+package com.example.lesson1.ui.Task
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
