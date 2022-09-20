@@ -12,7 +12,7 @@ class OnBoardingAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
     private val arrayListBoarding =
         arrayListOf(
             OnBoard(
-                "https://ru.m.wikinews.org/wiki/Файл:Facebook_Logo_%282019%29.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/2560px-Orange-Fruit-Pieces.jpg",
                 "Text 1",
                 "Description 1",
                 false

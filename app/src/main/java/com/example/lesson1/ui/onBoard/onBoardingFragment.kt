@@ -1,11 +1,11 @@
 package com.example.lesson1.ui.onBoard
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.lesson1.R
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.lesson1.databinding.FragmentOnBoardingBinding
 import com.example.lesson1.ui.onBoard.adapter.OnBoardingAdapter
 
@@ -27,4 +27,13 @@ class onBoardingFragment : Fragment() {
         binding.onBoarding.adapter = adapter
     }
 
+    override fun onResume() {
+        super.onResume()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
+    }
+
+    override fun onStop() {
+        super.onStop()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.show()
+    }
 }

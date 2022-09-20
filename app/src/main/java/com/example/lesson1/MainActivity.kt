@@ -40,14 +40,14 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_dashboard,
                 R.id.navigation_notifications,
                 R.id.taskFragment,
-                R.id.navigation_ProfileFragment
+                R.id.navigation_ProfileFragment,
+                R.id.onBoardingFragment
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
             navView.isVisible = navDestinations.contains(destination.id)
-
         }
     }
 }

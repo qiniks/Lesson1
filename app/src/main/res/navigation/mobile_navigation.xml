@@ -37,7 +37,6 @@
     <fragment
         android:id="@+id/onBoardingFragment"
         android:name="com.example.lesson1.ui.onBoard.onBoardingFragment"
-        android:label="fragment_on_boarding"
         tools:layout="@layout/fragment_on_boarding" />
 
 
